@@ -1,0 +1,222 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+html{
+	font-family: 'Josefin Sans', sans-serif !important;
+}
+
+h1,h2,h3,h4{
+	font-family: 'Lobster', cursive !important;
+}
+
+h4{
+	font-size: 3.2rem !important;
+}
+
+h6{
+	font-size: 1.3rem !important;
+	line-height: 150%;
+}
+
+.menu-color{
+	background-color: rgba(100,100,100,0.2);
+}
+
+.grey-alt {
+  background-color: #292929 !important; }
+
+.grey-alt-text {
+  color: #292929 !important; }
+
+.red-alt {
+	background-color: #ee0631 !important;
+}
+
+.red-alt-text {
+	color: #ee0631 !important;
+}
+
+.pink-alt{
+	background-color: #ffcfd8 !important;
+}
+
+.pink-alt-text{
+	color: #ffcfd8 !important;
+}
+
+@font-face {
+  font-family: 'Krinkes';
+  src: url('KrinkesDecor.ttf');
+}
+  
+
+nav ul a,
+nav .brand-logo {
+	color: #444;
+}
+
+p {
+	line-height: 2rem;
+}
+
+.button-collapse {
+	color: #26a69a;
+}
+
+.page-cover{
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url("../img/cover1.jpg");
+	overflow: hidden;
+}
+
+.parallax-container {
+	line-height: 0;
+	color: rgba(255,255,255,.9);
+}
+
+	.parallax-container .section {
+		width: 100%;
+	}
+
+@media only screen and (max-width : 992px) {
+	.parallax-container .section {
+		position: absolute;
+		top: 40%;
+	}
+	#index-banner .section {
+		top: 10%;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	#index-banner .section {
+		top: 0;
+	}
+}
+
+.icon-block {
+	padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+footer.page-footer {
+	margin: 0;
+}
+
+nav .brand-image{
+	position: absolute;
+	display: inline-block;
+	padding-top: 12px;
+	height: 48px;
+	width: auto;
+}
+
+.nav-wrapper{
+	margin-left:48px;
+	margin-right: 48px;
+}
+
+nav li a{
+	font-size: 1.1rem !important;
+	font-weight: 600;
+}
+
+.fullscreen{
+	height: 100vh !important;
+	display: table;
+}
+	.fullscreen .section{
+		display: table-cell;
+		vertical-align: middle;
+	}
+		.fullscreen .section .header{
+			padding-bottom: 20px !important;
+		}
+
+.logo-font{
+	font-family: 'Krinkes';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 3.96rem;
+}
+
+.header-logo-font{
+	display: inline;
+	font-size: 15.8rem;
+	line-height: 30%;
+	font-family: 'Krinkes';
+}
+
+#cover-banner{
+	background-image: url('../img/cover1.jpg');
+	background-repeat: none;
+	background-attachment: fixed;
+	background-position: left bottom;
+}
+
+.social-logo{
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	height: 40px;
+	width: 40px;
+}
+
+.kaushan{
+	font-family: 'Kaushan Script', cursive !important;
+}
+
+.pre-register{
+	border: none;
+	border-radius: 2px;
+	display: inline-block;
+	height: 48px;
+	line-height: 40px;
+	padding: 0 2.9rem;
+	text-transform: uppercase;
+	vertical-align: middle;
+	-webkit-tap-highlight-color: transparent;
+}
+
+/* label color */
+.input-field label {
+	color: #fff;
+}
+
+.input-field input {
+	color: #fff;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+	color: #fff;
+}
+.input-field input[type=email]:focus + label {
+	color: #fff;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid #fff;
+	box-shadow: 0 1px 0 0 #fff;
+}
+.input-field input[type=email]:focus {
+	border-bottom: 1px solid #fff;
+	box-shadow: 0 1px 0 0 #fff;
+}
+
+input[type=text].valid, input[type=text]:focus.valid, input[type=password].valid, input[type=password]:focus.valid, input[type=email].valid, input[type=email]:focus.valid, input[type=url].valid, input[type=url]:focus.valid, input[type=time].valid, input[type=time]:focus.valid, input[type=date].valid, input[type=date]:focus.valid, input[type=datetime-local].valid, input[type=datetime-local]:focus.valid, input[type=tel].valid, input[type=tel]:focus.valid, input[type=number].valid, input[type=number]:focus.valid, input[type=search].valid, input[type=search]:focus.valid, textarea.materialize-textarea.valid, textarea.materialize-textarea:focus.valid {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff; }
+input[type=text].valid + label:after, input[type=text]:focus.valid + label:after, input[type=password].valid + label:after, input[type=password]:focus.valid + label:after, input[type=email].valid + label:after, input[type=email]:focus.valid + label:after, input[type=url].valid + label:after, input[type=url]:focus.valid + label:after, input[type=time].valid + label:after, input[type=time]:focus.valid + label:after, input[type=date].valid + label:after, input[type=date]:focus.valid + label:after, input[type=datetime-local].valid + label:after, input[type=datetime-local]:focus.valid + label:after, input[type=tel].valid + label:after, input[type=tel]:focus.valid + label:after, input[type=number].valid + label:after, input[type=number]:focus.valid + label:after, input[type=search].valid + label:after, input[type=search]:focus.valid + label:after, textarea.materialize-textarea.valid + label:after, textarea.materialize-textarea:focus.valid + label:after {
+    content: attr(data-success);
+    color: #fff;
+    opacity: 1; }
