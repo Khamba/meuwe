@@ -78,4 +78,18 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.serve_static_assets = true
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address:                'smtp.zoho.com',
+    port:                   465,
+    user_name:              'skatyayan@meuwe.in',
+    domain:                 'meuwe.in',
+    password:               'meuwe2015',
+    authentication:         'plain',
+    ssl:                    true,
+    tls:                    true,
+    :enable_starttls_auto => true 
+  }
+
 end
