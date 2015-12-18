@@ -1,5 +1,5 @@
 class UserMailer < ApplicationMailer
-  default from: "no-reply@meuwe.in"
+  default from: "shourya@meuwe.in"
 
   def registration_successful(user)
     @user = user
