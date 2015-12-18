@@ -1,6 +1,23 @@
-Welcome to meuwe, <%= @user.name %>
-===============================================
+Hello,
+
+I’m really sorry for delaying in approaching you!
+
+Hope you're doing fantastic! I noticed that you pre-registered at meuwe.in, and I wanted to personally thank you. Pre-registrations are open just for next 10 days.
+
+Meuwe is world’s first Intra-College dating zone. I wish you have a wonderful time here!
+
+We would notify you when the website is up to complete the registration process and to let your fingers foster love!
+
+Feel free to reply directly to this email if you ever face any problems or would like to share your thoughts on what you like/dislike, and if there is anything you want us to work on.
+
+Thanks again and have a terrific day.
+
+Cheers!
+
  
-You have successfully signed up to meuwe.
- 
-Thanks for joining and have a great day!
+
+Shourya,
+
+Founder/C.E.O.
+
+meuwe.in
